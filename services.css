@@ -1,13 +1,11 @@
 * {
-    margin: 0px;
-    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
     font-family: 'Belanosima', sans-serif;
     border: border-box;
     margin:0;
     padding:0;
-    text-align: center;
+    text-align: start;
     box-sizing: border-box;
-    transition: 0.5s;
+    transition: 0.5s;
 }
 body{
     background-color: #b5b5b5;
@@ -35,7 +33,7 @@ body{
     padding-bottom: 20px;
 }
 .logo {
-    background-image: url("PICT-logo-modified.png");
+    background-image: url("LibraryImages/PICT-logo-modified.png");
     background-color: black;
     background-size: cover;
     border-radius: 50px;
@@ -77,8 +75,11 @@ body{
     margin-top: 10px;
 
 }
+.nav-library-service{
+    margin-top: 4px;
+}
 .underline{
-    height: 5px;
+    height: 4px;
     width: 100px;
     margin-left: 10px;
     background-color: #ff6347;

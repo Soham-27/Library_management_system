@@ -68,15 +68,6 @@ body{
     border-radius: 20px;
     color: black;
 }
-.nav-about{
-    margin-top: 5px;
-}
-.underline{
-    height: 5px;
-    width: 65px;
-    margin-left: 8  px;
-    background-color: #ff6347;
-}
 
 .select-menu{
     background-color: #3b3b3b;
@@ -248,73 +239,142 @@ body{
 
 /* Header CSS Ends */
 
-.section{
+/* Main CSS Starts */
+
+
+body{
+    width: 1500px;
+    height:100vh;
+    background: rgb(146, 146, 146);
+    display: grid;
+    justify-content: center;
+}
+.heading{
+    color: black;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 50px;
+    position: relative;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+}
+.heading::before{
+    content: '';
+    position: absolute;
+    width: 15%;
+    height: 5px;
+    background: rgb(0, 0, 0);
+    top: 60px;
+    left: 40%;
+    margin-left: 37px;
+    margin-top: -5px;
+}
+.wrapper{
+    width: 1435px;
+    height: 300px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin-top: 70px;
+    padding:50px;
+}
+.profile{
+    width: 200px;
+    height: 230px;
+    position: relative;
+    border-radius: 70%;
+    background: #fff;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    transition: 0.5s;
+    padding: 10px;
+    margin-left: 0px;
+    margin-top: 100px;
+}
+.pro_img{
+    width: 270px;
+    height: 280px;
+    padding: 10px;
+    position: relative;
+    border: 10px solid #d9560f;
+    border-radius: 50%;
+    transition: 0.5s;
+    transition-delay: 0.5s;
+    z-index: 1;
+}
+.dtl{
+    position: absolute;
     width: 100%;
-    min-height: 100vh;
-    background-color: rgb(234, 230, 230);
+    top: 25%;
+    transition: 0.5s;
+    transition-delay: 0.5s;
 }
-.container{
-    width: 80%;
-    display: block;
-    margin: auto;
-    padding-top: 100px;
+.name{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 60px;
+    color: black;
 }
-.content p{
-    font-size: 18px;
+.bio{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 5px;
+    color: #008cfe;
+}
+.social{
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bi{
+    width: 22px;
+    height: 22px;
+    padding: 7px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.bi:hover{
+    transform: translate(-5px);
+}
+.lin:hover{
+    fill: #009ef9;
+}
+.ins:hover{
+    fill: #ff009d;
+}
+.profile:hover{
+    border-radius: 17px;
+    height: 380px;
+}
+.profile:hover .pro_img{
+    border-radius: 17px;
+    margin-top: -230px;
+}
+.profile:hover .dtl{
+    top: 50%;
+}
+.wrapper2{
+    width: 1400px;
+    height: 530px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+}
+.wrapper2 .profile{
+    margin-left: 270px;
+    margin-top: 250px;
+    margin-right: 158px;
+    margin-bottom: 250px;
 }
 
-.title h1{
-    color: #080200;
-    font-size: 45px;
-    text-align: center;
-    margin-top: -40px;
-}
-h1::after{
-    content: "";
-    height: 4px;
-    width: 150px;
-    background-color: #000;
-    display: block;
-    margin: auto;
-}
-h2{
-    color:rgb(0, 0, 12);
-}
-h2::after{
-    content: "";
-    height: 4px;
-    width: 50px;
-    padding-left: 5px;
-    margin-left: 4px;
-    background-color: #000;
-    display: block;
-}
-.over h2::after{
-    content: "";
-    height: 4px;
-    width: 80px;
-    margin-left: 4px;
-    background-color: #000;
-    display: block;
-}
-body{
-    margin-top: 1vh;
-}
-.hero-section{
-    height: 520px;
-    background-color: rgb(234, 230, 230);
-}
-.background-image{
-    background-image: url(1553062146phpSKRC5T.jpeg);
-    height: 500px;
-    align-self: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width:50%;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 5px;
-}
+
+/* Main CSS Ends */
 
 
 /* footer CSS Starts  */
@@ -378,6 +438,10 @@ li{
     display: flex;
     justify-content: center;
     align-items: center;  
+}
+.social-details .img{
+    height: 40px;
+    width: 40px;
 }
 .img a{
     text-decoration: none;

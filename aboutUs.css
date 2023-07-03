@@ -1,11 +1,11 @@
 * {
     margin: 0px;
-    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
-    font-family: 'Belanosima', sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* font-family: 'Belanosima', sans-serif; */
     border: border-box;
 }
 body{
-    background-color: #b5b5b5;
+    background-color: rgb(233, 230, 230);
 }
 /* Header CSS starts */
 
@@ -30,7 +30,7 @@ body{
     padding-bottom: 20px;
 }
 .logo {
-    background-image: url("PICT-logo-modified.png");
+    background-image: url("LibraryImages/PICT-logo-modified.png");
     background-color: black;
     background-size: cover;
     border-radius: 50px;
@@ -69,10 +69,10 @@ body{
     color: black;
 }
 .nav-about{
-    margin-top: 5px;
+    margin-top: 4px;
 }
 .underline{
-    height: 5px;
+    height: 4px;
     width: 65px;
     margin-left: 10px;
     background-color: #ff6347;
@@ -374,6 +374,92 @@ img{
         opacity: 1;
         transform: translateX(0px);
     }
+}
+
+
+.about-library{
+    height: 500px;
+    border: 1px solid black;
+    margin: 50px;
+    display: flex;
+    /* justify-content: space-evenly; */
+}
+.about-library-info{
+    height: 480px;
+    width: 850px;
+    margin: 10px;
+    padding-left: 80px;
+    /* border: 1px solid black; */
+}
+.about-library-info h2{
+    font-size: 38px;
+    margin-bottom: 20px;
+    color: #000;
+}
+.video-library{
+    height: 350px;
+    width: 470px;
+    margin: 10px;
+    /* border: 1px solid black; */
+}
+.lib-cen-img{
+    height: 350px;
+    width: 100%;
+    background-image: url("LibraryImages/central-libraryphoto.jpg");
+    background-size: cover;
+    border-radius: 10px;
+}
+.about-library-info p{
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 40px;
+    color: #666;
+}
+.about-library button{
+    display: inline-block;
+    background-color: #ff4500;
+    color: #fff;
+    padding: 12px 24px;
+    border-radius: 5px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+.about-library button:hover{
+    background-color: #ff6347;
+    transform: scale(1.1);
+}
+.ndli-info{
+    display: flex;
+    margin-bottom: 60px;
+}
+.ndli-lib{
+    height: 480px;
+    width: 850px;
+    margin: 10px;
+    margin-right: 30px;
+    padding-left: 80px;
+    margin-bottom: 100px;
+}
+.ndli-lib p{
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 40px;
+    color: #666;
+}
+.ndli-cover{
+    height: 300px;
+    width: 500px;
+    /* border: 1px solid transparent; */
+}
+.ndli-img{
+    height: 300px;
+    width: 100%;
+    background-image: url("LibraryImages/ndli-img.png");
+    background-size: cover;
+    border: 1px solid transparent;
+    border-radius: 10px;
 }
 
 

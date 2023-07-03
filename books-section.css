@@ -30,7 +30,7 @@ body{
     padding-bottom: 20px;
 }
 .logo {
-    background-image: url("PICT-logo-modified.png");
+    background-image: url("LibraryImages/PICT-logo-modified.png");
     background-color: black;
     background-size: cover;
     border-radius: 50px;
@@ -69,10 +69,10 @@ body{
     color: black;
 }
 .section-name{
-    margin-top: 5px;
+    margin-top: 4px;
 }
 .underline{
-    height: 5px;
+    height: 4px;
     width: 90px;
     margin-left: 5px;
     background-color: #ff6347;

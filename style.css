@@ -30,7 +30,7 @@ body{
     padding-bottom: 20px;
 }
 .logo {
-    background-image: url("PICT-logo-modified.png");
+    background-image: url("LibraryImages/PICT-logo-modified.png");
     background-color: black;
     background-size: cover;
     border-radius: 50px;
@@ -249,7 +249,7 @@ h3{
     font-family: 'Belanosima', sans-serif;
 }
 .home {
-    background-image: url("grey-backgroung.jpg");
+    background-image: url("LibraryImages/grey-backgroung.jpg");
     background-size: cover;
     background-position: center;
     height: 500px;
@@ -326,7 +326,7 @@ h3{
     width: 100%;
     border: 1px solid transparent;
     border-radius: 10px;
-    background-image: url("AI-img-2.jpg");
+    background-image: url("LibraryImages/AI-img-2.jpg");
     background-size: cover;
     transition-property: all;
     transition-duration: 1s;
@@ -339,7 +339,7 @@ h3{
     width: 100%;
     border: 1px solid transparent;
     border-radius: 10px;
-    background-image: url("DSA-img.jpg");
+    background-image: url("LibraryImages/DSA-img.jpg");
     background-size: cover;
     transition-property: all;
     transition-duration: 1s;
@@ -352,7 +352,7 @@ h3{
     width: 100%;
     border: 1px solid transparent;
     border-radius: 10px;
-    background-image: url("Blockchain-img-1.webp");
+    background-image: url("LibraryImages/Blockchain-img-1.webp");
     background-size: cover;
     transition-property: all;
     transition-duration: 1s;
@@ -409,7 +409,7 @@ h3{
     width: 100%;
     border: 1px solid transparent;
     border-radius: 10px;
-    background-image: url("book-feat-1.jpg");
+    background-image: url("LibraryImages/book-feat-1.jpg");
     background-size: cover;
 }
 .book-feat-1:hover{
@@ -439,7 +439,7 @@ h3{
     width: 100%;
     border: 1px solid transparent;
     border-radius: 10px;
-    background-image: url("book-feat-2.jpg");
+    background-image: url("LibraryImages/book-feat-2.jpg");
     background-size: cover;
 }
 .book-feat-2:hover{
@@ -468,7 +468,7 @@ h3{
     width: 100%;
     border: 1px solid transparent;
     border-radius: 10px;
-    background-image: url("book-feat-3.jpg");
+    background-image: url("LibraryImages/book-feat-3.jpg");
     background-size: cover;
 }
 .book-feat-3:hover{
@@ -497,7 +497,7 @@ h3{
     width: 100%;
     border: 1px solid transparent;
     border-radius: 10px;
-    background-image: url("book-feat-4.jpg");
+    background-image: url("LibraryImages/book-feat-4.jpg");
     background-size: cover;
 }
 .book-feat-4:hover{
@@ -527,7 +527,7 @@ h3{
     width: 100%;
     border: 1px solid transparent;
     border-radius: 10px;     
-    background-image: url("book-feat-5.jpg");
+    background-image: url("LibraryImages/book-feat-5.jpg");
     background-size: cover;
 }
 .book-feat-5:hover{
@@ -585,7 +585,7 @@ h3{
     height: 400px;
     width: 100%;
     border-radius: 20px;
-    background-image: url("library-image.jpeg");
+    background-image: url("LibraryImages/library-image.jpeg");
     background-size: cover;
     margin-right: 300px;
 }

@@ -21,12 +21,12 @@
         <div class="nav-bar">
             <div class="main-logo">
                 <div class="nav-logo border">
-                    <a id="click-logo" href="index.html">
+                    <a id="click-logo" href="index.php">
                         <div class="logo"></div>
                     </a>
                 </div>
                 <div class="logo-name">
-                    <a id="click-logo" href="index.html">
+                    <a id="click-logo" href="index.php">
                         <p>Library PICT, Pune</p>
                     </a>
                 </div>
@@ -34,13 +34,14 @@
 
             <div class="space">
                 <div class="nav-about">
-                    <a href="aboutUs.html">About Us</a>
+                    <a href="aboutUs.php">About Us</a>
+                    <div class="underline"></div>
                 </div>
                 <div class="nav-E-resources">
-                    <a href="e-resources.html">E-Resources</a>
+                    <a href="e-resources.php">E-Resources</a>
                 </div>
                 <div class="nav-library-service">
-                    <a href="services.html">Library Services</a>
+                    <a href="services.php">Library Services</a>
                 </div>
                 <div class="select-menu">
                     <div class="select-btn">
@@ -55,25 +56,25 @@
 
                     <ul class="options">
                         <li class="option">
-                            <a href="books-section.html"><span class="option-text">Books Section</span></a>
+                            <a href="books-section.php"><span class="option-text">Books Section</span></a>
                         </li>
-                        <li class="option">
-                            <a href="maths-section.html"><span class="option-text">Mathematics</span></a>
+                        <li class="option"><form id="y" method='post' action='books-section.php'><input type='hidden' name='search' value='math'>
+                            <a href="javascript:{}" onclick="document.getElementById('y').submit(); return false;"><span class="option-text">Mathematics</span></a></form>
                         </li>
-                        <li class="option">
-                            <a href="AI-section.html"><span class="option-text">Artificial Intelligence</span></a>
+                        <li class="option"><form id="z" method='post' action='books-section.php'><input type='hidden' name='search' value='blockchain'>
+                            <a href="javascript:{}" onclick="document.getElementById('z').submit(); return false;"><span class="option-text">Blockchain</span></a></form>
                         </li>
-                        <li class="option">
-                            <a href="DSA-section.html"><span class="option-text">Data Structures & Algorithm</span></a>
+                        <li class="option"><form id="w" method='post' action='books-section.php'><input type='hidden' name='search' value='object'>
+                            <a href="javascript:{}" onclick="document.getElementById('w').submit(); return false;"><span class="option-text">Objected Oriented Programming</span></a></form>
                         </li>
-                        <li class="option">
-                            <a href="blockchain-section.html"><span class="option-text">Blockchain</span></a>
+                        <li class="option"><form id="x" method='post' action='books-section.php'><input type='hidden' name='search' value='artificial intelligence'>
+                            <a href="javascript:{}" onclick="document.getElementById('x').submit(); return false;"><span class="option-text">Artificial Intelligence</span></a></form>
                         </li>
-                        <li class="option">
-                            <a href="oops-section.html"><span class="option-text">Object Oriented Programming</span></a>
+                        <li class="option"><form id="v" method='post' action='books-section.php'><input type='hidden' name='search' value='data structures'>
+                            <a href="javascript:{}" onclick="document.getElementById('v').submit(); return false;"><span class="option-text">Data Structures & Algorithm</span></a></form>
                         </li>
-                        <li class="option">
-                            <a href="ML-section.html"><span class="option-text">Machine Learning</span></a>
+                        <li class="option"><form id="u" method='post' action='books-section.php'><input type='hidden' name='search' value='machine learning'>
+                            <a href="javascript:{}" onclick="document.getElementById('u').submit(); return false;"><span class="option-text">Machine Learning</span></a></form>
                         </li>
                     </ul>
                 </div>
@@ -81,10 +82,10 @@
 
             <div class="info">
                 <div class="logIn">
-                    <a href="login.html">Log In</a>
+                    <a href="login.php">Log In</a>
                 </div>
                 <div class="signUp border">
-                    <a href="signUp.html">Sign Up</a>
+                    <a href="signUp.php">Sign Up</a>
                 </div>
             </div>
 
@@ -92,11 +93,13 @@
 
         </div>
         <div class="panel">
-            <div class="search-select">
-                <input class="input-search" placeholder="  Search Books">
+        <div class="search-select">
+            <form style="display: flex" method='post' action='<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>' id='searchbar'>
+                <input class="input-search" placeholder="  Search Books" name="search" value='<?php echo "$search"; ?>'>
                 <div class="search-logo">
-                    <!-- <i class="fa-solid fa-magnifying-glass"></i> -->
-                    <p>Search</p>
+                <!-- <i class="fa-solid fa-magnifying-glass"></i> -->
+                <button type='submit' name='submit' form='searchbar'>Search</button>
+                </form>
                 </div>
             </div>
         </div>

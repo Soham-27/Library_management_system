@@ -211,22 +211,22 @@
             <div class="firstBlock">
                 <ul>
                     <div class="info">Quick Links</div>
-                    <a href="index.html">
+                    <a href="index.php">
                         <li>Home</li>
                     </a>
-                    <a href="aboutUs-2.html">
+                    <a href="aboutUs-2.php">
                         <li>About Us</li>
                     </a>
-                    <a href="e-resources.html">
+                    <a href="e-resources.php">
                         <li>E-Resources</li>
                     </a>
-                    <a href="services.html">
+                    <a href="services.php">
                         <li>Library Services</li>
                     </a>
-                    <a href="books-section.html">
+                    <a href="books-section.php">
                         <li>Books Section</li>
                     </a>
-                    <a href="login.html">
+                    <a href="login.php">
                         <li>Log In</li>
                     </a>
                 </ul>
@@ -234,10 +234,10 @@
             <div class="secondBlock">
                 <ul>
                     <div class="info">Get to know Us</div>
-                    <a href="aboutUs-2.html">
+                    <a href="aboutUs-2.php">
                         <li>About PICT College</li>
                     </a>
-                    <a href="aboutUs.html">
+                    <a href="aboutUs.php">
                         <li>About PICT Library</li>
                     </a>
                     <a target="_blank"
@@ -268,14 +268,12 @@
                     <div class="info">Contact Us</div>
 
                     <li>Phone No :- <a target="_blank" href="">020 2437 1101</a></li>
-
+                    
                     <li>Email id :- <a target="_blank" href="">registrar@pict.edu</a>
                     </li>
-                    <li>Address :-
-                        <a target="_blank"
-                            href="https://www.google.com/maps/place/SCTR'S+Pune+Institute+of+Computer+Technology/@18.4575421,73.8508336,17z/data=!3m1!4b1!4m6!3m5!1s0x3bc2eac85230ba47:0x871eddd0a8a0a108!8m2!3d18.4575421!4d73.8508336!16zL20vMDc3MTl3?entry=ttu">
-                            Survey No. 27, Near,<br> Trimurti Chowk, Bharati Vidyapeeth Campus,<br> Dhankawadi, Pune,
-                            Maharashtra 411043
+                    <li>Address :- 
+                        <a target="_blank" href="https://www.google.com/maps/place/SCTR'S+Pune+Institute+of+Computer+Technology/@18.4575421,73.8508336,17z/data=!3m1!4b1!4m6!3m5!1s0x3bc2eac85230ba47:0x871eddd0a8a0a108!8m2!3d18.4575421!4d73.8508336!16zL20vMDc3MTl3?entry=ttu">
+                            Survey No. 27, Near,<br> Trimurti Chowk, Bharati Vidyapeeth Campus,<br> Dhankawadi, Pune, Maharashtra 411043
                         </a>
                     </li>
                 </ul>
@@ -287,26 +285,26 @@
         <div class="social-details">
             <div class="insta">
                 <div class="img">
-                    <a target="_blank" href="https://www.instagram.com/pict.pune/?hl=en">
-                        <i class="fa-brands fa-instagram"></i></a>
+                    <a target="_blank" href="https://www.instagram.com/pict.pune/?hl=en"><i
+                            class="fa-brands fa-instagram"></i></a>
                 </div>
             </div>
             <div class="linkedIn">
                 <div class="img">
-                    <a target="_blank" href="https://www.linkedin.com/school/pune-institute-of-computer-technology/">
-                        <i class="fa-brands fa-linkedin"></i></a>
+                    <a target="_blank" href="https://www.linkedin.com/school/pune-institute-of-computer-technology/"><i
+                            class="fa-brands fa-linkedin"></i></a>
                 </div>
             </div>
             <div class="facebook">
                 <div class="img">
-                    <a target="_blank" href="https://www.facebook.com/PICTOfficial/">
-                        <i class="fa-brands fa-facebook"></i></a>
+                    <a target="_blank" href="https://www.facebook.com/PICTOfficial/"><i
+                            class="fa-brands fa-facebook"></i></a>
                 </div>
             </div>
             <div class="twitter">
                 <div class="img">
-                    <a target="_blank" href="https://twitter.com/punepict?lang=en">
-                        <i class="fa-brands fa-twitter"></i></a>
+                    <a target="_blank" href="https://twitter.com/punepict?lang=en"><i
+                            class="fa-brands fa-twitter"></i></a>
                 </div>
             </div>
         </div>
@@ -317,12 +315,9 @@
                 <i class="fa-regular fa-copyright"></i>
             </div>
             <p>Copyright 2022-23 PICT, Pune. All Rights Reserved <br>
-                Developed by <a href=""> WEB TEAM </a> of First Year PICT.</p>
+                Developed by <a href="team.php"> WEB TEAM </a> of First Year PICT.</p>
         </div>
-
-
     </footer>
-
     <script src="script.js"></script>
 
 </body>

@@ -1,4 +1,2 @@
-20/08/23
-
-My first Git repository... enjoying it.
+Our first git repository
 Many updates to come for this repository.
